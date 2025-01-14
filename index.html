@@ -25,7 +25,7 @@
       </div>  
 
       <div class="flex gap-4 items-center">
-        <button class="hover:bg-[#ff1300] hover:scale-105  hover:transition-all duration-500 bg-[#F44335] rounded-md text-sm md:text-[16px] cursor-pointer py-1.5 md:py-2 md:px-3  px-2 text-white">Register Interest</button>
+        <button class="btn_transition bg-[#F44335] rounded-md text-sm md:text-[16px] cursor-pointer py-1.5 md:py-2 md:px-3  px-2 text-white">Register Interest</button>
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 md:size-8 cursor-pointer hover:scale-105 transition-all">
           <path stroke-linecap="round" stroke-linejoin="round" d="M21.752 15.002A9.72 9.72 0 0 1 18 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 0 0 3 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 0 0 9.002-5.998Z" />
         </svg>        
@@ -34,62 +34,68 @@
     </div>
   </head>
 
+  <!-- Banner Section -->
   <section class="bg-[#FAFAFA]">
-    <div class="container justify-between flex w-[95%] mx-auto">
-      <div>
-        <div>
-          <span>Discover</span>
-          <span>Interact</span>
-          <span>Engage</span>
+    <div class="container pt-10 md:pt-20 flex-col md:flex-row justify-around flex w-[95%] mx-auto">
+
+      <!-- Left Corner Content -->
+      <div class="order-2 text-sm flex flex-col md:items-start items-center  pt-14 md:order-1">
+        <div class="flex gap-8 relative w-fit font-semibold">
+          <span class="banner_left_span1">Discover</span>
+          <span class="banner_left_span2">Interact</span>
+          <span class="banner_left_span3">Engage</span>
         </div>
 
-        <h1>
-          GOOGLE <br> <span>IT Support</span> <br> Certificate
+        <h1 class="text-5xl md:text-7xl font-semibold mt-5 mb-7">
+          GOOGLE <br> <span class="underline text-[#F44335] inline-block my-2">IT Support</span> <br> Certificate
         </h1>
 
-        <p>This is your path to a career in IT. In this program, you’ll learn in-demand skills with no degree or experience required. </p>
+        <p class="mb-7 text-sm leading-6 text-[#072125]">This is your path to a career in IT. In this program, you’ll learn in-<br>demand skills with no degree or experience required. </p>
 
-        <div>
-          <div>
-            <span>438</span>
+        <div class="flex gap-3 mb-7 text-center">
+          <div class="flex flex-col">
+            <span class="text-[#00FF84] text-[17px] md:text-lg font-bold">438</span>
             <span>Videos</span>
           </div>
 
-          <div>
-            <span>151</span>
+          <div class="flex flex-col">
+            <span class="text-[#00FF84] text-[17px] md:text-lg font-bold">151</span>
             <span>Readings</span>
           </div>
 
-          <div>
-            <span>108</span>
+          <div class="flex flex-col">
+            <span class="text-[#00FF84] text-[17px] md:text-lg font-bold">108</span>
             <span>Quizzes</span>
-          </div>
+          </div> 
 
-          <div>
-            <span>24</span>
+          <div class="flex flex-col">
+            <span class="text-[#00FF84] text-[17px] md:text-lg font-bold">24</span>
             <span>Exercises</span>
           </div>
 
-          <div>
-            <span>4</span>
+          <div class="flex flex-col">
+            <span class="text-[#00FF84] text-[17px] md:text-lg font-bold">4</span>
             <span>Assignments</span>
           </div>
 
         </div>
 
-        <div>
-          <button>Sign up</button>
-          <button>Learn more</button>
+        <div class="flex gap-3 mb-5">
+          <button class="bg-[#F44335] btn_transition text-white py-2 px-5 font-light cursor-pointer rounded-md">Sign up</button>
+          <button class="bg-white transition-all duration-300 hover:scale-105 py-3 px-7 rounded cursor-pointer">Learn more</button>
         </div>
-
 
       </div>
 
-      <div></div>
+      <!-- Image Portion -->
+      <div class="order-1 md:order-2">
+        <img src="img/Mask group.png" alt="">
+      </div>
 
     </div>
   </section>
 
+  
 
 
 

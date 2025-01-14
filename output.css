@@ -5,3 +5,26 @@
 body , html{
   width: 100% !important;
 }
+
+.banner_left_span1::after{
+    content: "";
+    width: 18px;
+    height: 1.4px;
+    position: absolute;
+    background-color: red;
+    top: 10px;
+    left: 60px;
+}
+.banner_left_span2::after{
+    content: "";
+    width: 18px;
+    height: 1.4px;
+    position: absolute;
+    background-color: red;
+    top: 10px;
+    left: 140px;
+}
+
+.btn_transition{
+ @apply hover:bg-[#ff1300] hover:scale-105  hover:transition-all duration-500;
+}
