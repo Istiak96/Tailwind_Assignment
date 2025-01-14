@@ -28,3 +28,10 @@ body , html{
 .btn_transition{
  @apply hover:bg-[#ff1300] hover:scale-105  hover:transition-all duration-500;
 }
+
+.learning_heading{
+  @apply text-xl w-[90%] mx-auto font-bold pb-4 md:text-2xl border-b-[3px] border-[#F9CCC7];
+}
+.learning_span{
+  @apply border border-[#F44335] text-[7px] md:text-[10px] rounded-full p-2;
+}
